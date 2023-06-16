@@ -591,8 +591,6 @@ This feature should not be compared directly with a CDN, for the following reaso
 
 * This feature does not exempt you from having to run a web service in your VM.
 
-* Statics will not find `index.html` at the root. The full path must be requested.
-
 * You can't set `Cache-Control` or any other headers on assets. If you need those, you'll need to deliver them from your application and set the relevant headers.
 
 * Assets are not delivered, by default, from all edge Fly.io regions. Rather, assets are delivered from the regions the application is deployed in.
